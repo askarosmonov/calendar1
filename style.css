@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+
+}
+.hero {
+width: 100%;
+height: 700px ;
+background: linear-gradient(45deg,brown,blue,rgb(0, 255, 234));
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.calendar{
+    width: 300px;
+    height: 250px;
+    background: #fff;
+    border-radius: 10px;
+    border: 4px solid wheat;
+    align-items: center;
+    display: flex;
+}
+.left, .right {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    flex-direction:column ;
+}
+.right {
+    width: 42%;
+    /* background-color: tomato; */
+    /* margin-left: 30px; */
+    border-radius: 0px 6px 6px 0px;
+    background: linear-gradient(45deg,rgba(0, 221, 255, 0.858),rgba(255, 0, 217, 0.904)),rgba(255, 213, 0, 0.872);
+}
+.left {
+    width: 58%;
+     background: linear-gradient(45deg,rgba(255, 34, 0, 0.858),rgba(0, 255, 13, 0.904)),rgba(0, 0, 255, 0.872);
+}
+#date {
+    font-size: 90px;
+    line-height: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#day {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#month {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#year{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
